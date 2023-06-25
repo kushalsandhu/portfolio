@@ -1,0 +1,331 @@
+body{
+    background-color: #E4F9F5;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.front-page{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 132px;
+}
+
+.about-page{
+    color: #40514E;
+    background-color: #E4F9F5;
+}
+
+.skills-page{
+    padding-top: 10px;
+    color: #40514E;
+    background-color: #E4F9F5;
+}
+
+.projects-page{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: #E4F9F5;
+    position: relative;
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 3.75em;
+    margin-top: 50px;
+    font-family: 'Caveat', cursive;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.67rem;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    line-height: 2;
+}
+
+a{
+color:#66BFBF;
+font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+
+
+}
+a:hover{
+    color: #11999E;
+}
+.links{
+    position: absolute;
+    right: 130px;
+    top: 50px;
+}
+
+.icon-img{
+    width:5%;
+    position:absolute;
+    left: 190px;
+    top: 20px;
+}
+.upper-cloud{
+    width: 10%;
+    position: absolute;
+    right: 200px;
+    top:90px
+}
+
+.bottom-cloud{
+    width: 10%;
+    position: absolute;
+    left:200px;
+    bottom:290px;
+}
+.mountain{
+    width: 42%;
+    margin: 100px 0 0;
+}
+
+.profile-image{
+    width: 15%;
+    margin: 80px auto 20px;
+    
+}
+
+.intro{
+    width:30%;
+    margin: auto;
+    padding: 0 0 20px;
+    font-size: 1.2 rem;
+    
+     
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 40px 0 10px;
+}
+.footer-link{
+    color: #11999E;
+}
+.contact{
+    color: #66BFBF;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.insta-icon{
+    width: 2.2%;
+    position: relative;
+    left: 20px;
+    top: 1px;   
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 1.2 rem;
+}
+
+
+.skill-box{
+    /* margin: 30px 100px;
+    padding: 10px 50px; */
+    
+    /* margin: auto; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill-set-1{
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+} 
+
+.skill-set-2{
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 125px;
+}
+
+.skill-set-3{
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 135px;
+}
+
+.skill-set-4{
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.skill-set-5{
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.skill-set-6{
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
+.skill-set-7{
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.skill-icon{
+    width: 100px;
+    height: 100px;
+    margin: 60px 100px 20px;
+}
+
+.skills{
+    text-align: center;
+}
+/* .dev-icon{
+    width: 60%;
+    margin: 40px 40px;
+} */
+
+/* .html-icon{
+    width: 20%;
+    margin: 40px 40px;
+}
+.css-icon{
+    width: 20%;
+    margin: 40px 40px;
+}
+.bootstrap-icon{
+    width: 20%;
+    margin: 40px 40px;
+}
+.js-icon{
+    width: 20%;
+    margin: 40px 40px;
+}
+.cpp-icon{
+    width: 20%;
+    margin: 40px 40px;
+}
+.python-icon{
+    width: 20%;
+    margin: 40px 20px;
+} */
+
+.resume-link{
+    padding-top: 55px;
+    margin-top: 50px;
+    
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 50px;
+    left: 680px;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .project-heading{
+    margin-top: 50px;
+  }
+   
+  .project-1{
+    margin: 50px 200px 30px 100px;
+    padding-top: 12px;
+    padding-bottom: 33px;
+  }
+  .pen-icon{
+    width: 10%;
+    float: left;
+    margin:0 180px 40px 150px;
+  }
+
+  .details{
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+
+  .project-2{
+    margin: 50px auto;
+    padding-bottom: 32px;
+  }
+
+  .gg-icon{
+    width: 10%;
+    float: right;
+    margin: 0 200px 40px 100px;
+  }
+  .details-intern{
+    width: 40%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 1.1rem;
+  }
+
+  .bottom{
+    background-color: #66BFBF;
+    padding: 20px 0;
+  }
+  .copyright-1{
+    color: #EAF6F6;
+    font-size: 2 rem;
+}
+hr{
+    background-color: #E4F9F5;
+    border: dotted #11999e;
+    border-bottom: none;
+    width: 4%;
+    margin-top: 70px;
+    
+}
